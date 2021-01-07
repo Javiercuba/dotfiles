@@ -1,0 +1,35 @@
+format = """
+$directory\
+$git_branch\
+$git_status\
+$docker_context\
+$elixir\
+$elm\
+$nodejs\
+$rust\
+$character"""
+
+scan_timeout = 5
+
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[git_branch]
+format = "[git:](white)\\([$branch]($style)\\)"
+
+[git_status]
+format = "[$all_status$ahead_behind]($style) "
+
+[elixir]
+format = "[elixir:](white)\\([$version]($style)\\) "
+
+[nodejs]
+format = "[node:](white)\\([$version]($style)\\) "
+
+[rust]
+format = "[rust:](white)\\([$version]($style)\\) "
+
+[character]
+success_symbol = "\n[ﬦ](bold green)"
+error_symbol = "\n[✗](bold red)"
+vicmd_symbol = "\n[](bold green)"
