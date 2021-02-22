@@ -39,8 +39,6 @@ alias d="rm -rf $argv"
 # system
 alias fsource="source ~/.config/fish/config.fish"
 alias fedit="vim ~/.config/fish/aliases.fish"
-alias v="nvim $argv"
+alias v="vim $argv"
 
 alias dev="cd /mnt/c/Dev"
-
-alias cd="builtin cd $argv"

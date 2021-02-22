@@ -57,12 +57,12 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/home/matthew/.cache/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=/home/javi/.cache/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/home/matthew/.cache/dein')
-  call dein#begin('/home/matthew/.cache/dein')
-  call dein#add('/home/matthew/.cache/dein/repos/github.com/Shougo/dein.vim')
+if dein#load_state('/home/javi/.cache/dein')
+  call dein#begin('/home/javi/.cache/dein')
+  call dein#add('/home/javi/.cache/dein/repos/github.com/Shougo/dein.vim')
 
   """ BEGIN PLUGINS
   call dein#add('luochen1990/rainbow') " Rainbow brackets
