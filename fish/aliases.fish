@@ -14,6 +14,9 @@ alias mpgs="mix phx.gen.schema $argv"
 alias ies="iex -S mix"
 alias mps="mix phx.server"
 
+# docker
+alias start_postgres="docker start e5a72beffd9c"
+
 # git
 alias gt="git status"
 alias ga="git add ."
@@ -35,4 +38,9 @@ alias d="rm -rf $argv"
 
 # system
 alias fsource="source ~/.config/fish/config.fish"
+alias fedit="vim ~/.config/fish/aliases.fish"
 alias v="nvim $argv"
+
+alias dev="cd /mnt/c/Dev"
+
+alias cd="builtin cd $argv"
